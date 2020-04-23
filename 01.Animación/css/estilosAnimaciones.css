@@ -1,0 +1,111 @@
+/* 
+Formateo del estilo 
+Evitar margenes de los elementos
+*/
+
+
+/*Permite realizar un linea de tiempo */
+
+@keyframes miAnimacion {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Repeticion con los prefijos de los navegadores por
+ cuestiones de las versiones de los navegadores*/
+
+@-webkit-keyframes miAnimacion {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes miAnimacion {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Fondos de la cajas/divs en el index */
+
+#fondo1 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background.jpg);
+    animation: miAnimacion 24s linear 18s infinite;
+    -webkit-keyframes: miAnimacion 24s linear 18s infinite;
+    -moz-keyframes: miAnimacion 24s linear 18s infinite;
+}
+
+#fondo2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background2.jpg);
+    background-size: cover;
+    animation: miAnimacion 24s linear 12s infinite;
+    -webkit-keyframes: miAnimacion 24s linear 12s infinite;
+    -moz-keyframes: miAnimacion 24s linear 12s infinite;
+}
+
+#fondo3 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background3.jpg);
+    background-size: cover;
+    animation: miAnimacion 24s linear 6s infinite;
+    -webkit-keyframes: miAnimacion 24s linear 6s infinite;
+    -moz-keyframes: miAnimacion 24s linear 6s infinite;
+    ;
+}
+
+#fondo4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background4.jpg);
+    animation: miAnimacion 24s linear 0s infinite;
+    -webkit-keyframes: miAnimacion 24s linear 0s infinite;
+    -moz-keyframes: miAnimacion 24s linear 0s infinite;
+}
