@@ -1,7 +1,7 @@
 # Animaciones y Efectos CSS3 sin el uso de JavaScript
 
 
-## Pagina usadas como referencia 
+## Paginas usadas como referencia 
 
 ### Tranciciones 
 
