@@ -1,0 +1,76 @@
+/* 
+Formateo del estilo 
+Evitar margenes de los elementos
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 150px;
+    background: silver;
+}
+
+#menuTop {
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    height: 50px;
+    background: red;
+}
+
+.nivel1 {
+    float: left;
+    width: 19.2%;
+    text-align: center;
+    line-height: 42px;
+    border: 4px solid white;
+    background: linear-gradient(#900, #600);
+    /* Otros degradados*/
+    /*
+    background: linear-gradient(45deg, #f00, #0f0, #00f);
+    background: radial-gradient( #f00, #0f0, #00f);
+    */
+}
+
+.nivel1 a {
+    color: #ffffff;
+}
+
+.nivel1:hover {
+    background: purple;
+}
+
+.nivel2 {
+    position: relative;
+    left: -4px;
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    background: silver;
+    color: black;
+}
+
+.nivel2:hover {
+    background: blue;
+    transition: background .5s ease-out;
+}
+
+#menuTop ul li ul {
+    display: none;
+}
+
+#menuTop ul li:hover ul {
+    display: block;
+}
