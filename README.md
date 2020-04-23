@@ -13,3 +13,7 @@ https://www.bufa.es/css3-transitions/
 ### Selectores avanzados
 
 http://www.davidvalverde.com/blog/selectores-avanzados-css/
+
+### Estilo usado en el index
+
+https://codepen.io/emanuelgsouza/pen/YVJOZo
